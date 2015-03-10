@@ -26,10 +26,10 @@ public class TipCalculatorActivity extends ActionBarActivity {
                 else {
                     newNum = (int) (newNum + 1);
                 }
-                tip.setText("Tip:" + (int)newNum);
+                tip.setText("Tip: " + (int)newNum);
             }
             else
-                tip.setText("Tip:" +  newNum);
+                tip.setText("Tip: " +  newNum);
 
         }
     };
